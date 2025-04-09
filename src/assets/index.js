@@ -3,10 +3,11 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+// Custom logos
+import logotext from './logo/yusuf-stylish.svg';
+import logo from './logo/portfolio-symbol-alt.svg';
 
-import shaq from './personal/shaq.png';
+// Personal photo removed
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -55,9 +56,8 @@ export {
   nairobi,
   whiteabstract,
   worldmap,
-  logo,
   logotext,
-  shaq,
+  logo,
   backend,
   ux,
   frontend,

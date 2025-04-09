@@ -46,225 +46,250 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Full Stack Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Machine Learning',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Mobile App Development',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Cloud & DevOps',
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'Java',
+    icon: javascript, // Using JavaScript icon as placeholder for Java
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Python',
+    icon: nodejs, // Using Node.js icon as placeholder for Python
+  },
+  {
+    name: 'C++',
+    icon: typescript, // Using TypeScript icon as placeholder for C++
   },
   {
     name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Django',
+    icon: redux, // Using Redux icon as placeholder for Django
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
+    name: 'Ruby on Rails',
     icon: rubyrails,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'Docker',
+    icon: docker,
   },
   {
-    name: 'postgresql',
+    name: 'PostgreSQL',
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: 'Git',
     icon: git,
   },
   {
-    name: 'figma',
+    name: 'PyTorch',
+    icon: graphql, // Using GraphQL icon as placeholder for PyTorch
+  },
+  {
+    name: 'HTML/CSS',
+    icon: html,
+  },
+  {
+    name: 'UI/UX',
     icon: figma,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'AWS',
+    icon: tailwind, // Using Tailwind icon as placeholder for AWS
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'IT Support Assistant',
+    company_name: 'The University of Iowa IT Services',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'January 2025 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Specialist Assistant',
+    company_name: 'The University of Iowa IT Services',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'September 2024 - January 2025',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Software Developer Intern',
+    company_name: 'The University of Iowa IT Services',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'June 2023 - August 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Engineering Tutor',
+    company_name: 'The University of Iowa TRIO SSS',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'October 2024 - December 2024',
+  },
+  {
+    title: 'Software Engineering Research Assistant',
+    company_name: 'The University of Iowa Department of Engineering',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'August 2023 - May 2024',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'ATHLETIC INSIDER',
+    description: 'A web application for sports analytics with automated branch creation, RESTful API endpoints, and containerized microservices.',
     tags: [
       {
-        name: 'react',
+        name: 'django',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'react',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'postgresql',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'docker',
+        color: 'blue-text-gradient',
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
+    name: 'SmartLink',
+    description: 'A two-way ML compression framework using autoencoders to extend wireless range and reliability for low-latency video transmission.',
     tags: [
       {
-        name: 'react',
+        name: 'c++',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'python',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'pytorch',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'raspberry pi',
+        color: 'blue-text-gradient',
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Shards of the Grids',
+    description: 'A responsive web app with 90% test coverage, strict Git workflows, and comprehensive documentation for project transparency.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'ruby on rails',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'haml',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'postgres',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'heroku',
+        color: 'blue-text-gradient',
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Flowers Image Classifier',
+    description: 'A deep learning model with PyTorch for flower image classification, featuring data augmentation and a user-friendly CLI.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'python',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'pytorch',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'vgg16',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'matplotlib',
+        color: 'blue-text-gradient',
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: '#',
+    demo: '#',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+    name: 'ISocial',
+    description: 'An Android app with Java integrating Google Auth for secure user access, Firebase for real-time data storage, and refined UI/UX design.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'ui/ux',
         color: 'pink-text-gradient',
+      },
+      {
+        name: 'android studio',
+        color: 'blue-text-gradient',
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: '#',
+    demo: '#',
   },
 ];
 

@@ -37,12 +37,12 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I'm a Computer Science & Engineering student at the University of Iowa with a passion for
+        software development, machine learning, and creating innovative solutions. My experience spans
+        from full-stack web development to mobile applications and AI projects. I'm proficient in multiple
+        programming languages including Java, Python, C++, and JavaScript, with expertise in frameworks
+        like Django, React, and Ruby on Rails. I enjoy tackling complex challenges and collaborating with
+        cross-functional teams to deliver high-quality software solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
